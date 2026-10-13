@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Macro Scenario Lab: a transparent housing-shock-to-asset-return scenario simulator"
+authors:
+  - family-names: Greenlee
+    given-names: Stuart
+type: software
+version: 0.2.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/sdg-kit/macro-scenario-lab"
+keywords:
+  - macroeconomics
+  - housing
+  - scenario analysis
+  - monte carlo
+  - stock-flow model
+  - streamlit
