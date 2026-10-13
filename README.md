@@ -173,8 +173,8 @@ Unemployment $u_t$ and the mortgage rate $m_t$ ramp linearly to their peaks. Eac
 
 $$
 \begin{aligned}
-\text{distressed listings } D_t &= S\,\delta\,\max\bigl(0,\; u_{t-\ell} - u_0\bigr) &&\text{(lagged $\ell$ months)}\\
-\text{voluntary listings } V_t &= S\, v\,(1 - \lambda) &&\text{($\lambda$ = mortgage lock-in)}\\
+\text{distressed listings } D_t &= S\,\delta\,\max\bigl(0,\; u_{t-\ell} - u_0\bigr) &&\text{(lagged } \ell \text{ months)}\\
+\text{voluntary listings } V_t &= S\, v\,(1 - \lambda) &&(\lambda \text{ = mortgage lock-in})\\
 \text{potential buyers } B_t &= B_0 \max\Bigl(0.02,\; 1 + \kappa\min(\tfrac{t}{R},1) - \rho\,(m_t - m_0) - \eta\ln\tfrac{P_{t-1}}{100}\Bigr) \\
 \text{sales } X_t &= \min\bigl(I_{t-1} + V_t + D_t,\; \theta B_t\bigr) \\
 \text{inventory } I_t &= (1 - \omega)\bigl(I_{t-1} + V_t + D_t - X_t\bigr) \\
@@ -203,7 +203,7 @@ Under the default configuration (1 million units, unemployment 4.5 % to 10 % ove
 | AI unemployment | 40 % | 12 % | 360 bps | 0.75 % | 2.50 % | −13.8 % | −50.3 % | +31.8 % | +2.4 % | +28.0 % | 68 % |
 | Controlled repricing | 30 % | 5 % | 160 bps | 3.00 % | 3.75 % | +14.0 % | −34.3 % | +28.2 % | +6.1 % | +19.4 % | 35 % |
 
-Two things are worth reading off this table. First, the *Financial crisis* scenario is not the worst for equities despite the deepest housing fall, because its rate and liquidity assumptions (policy rate to 0.5 %, $3.5 trillion of combined stimulus and asset purchases) offset the credit and labour shock in the return equations. Second, the Bitcoin medians are an artefact of the liquidity coefficient $\beta_L$ applied to multi-trillion programmes, and the 5th-to-95th range for BTC spans two orders of magnitude; the model is telling you that the assumption dominates, not that it has a view.
+Two things are worth reading off this table. First, the *Financial crisis* scenario is not the worst for equities despite the deepest housing fall, because its rate and liquidity assumptions (policy rate to 0.5 %, a combined 3.5 trillion dollars of stimulus and asset purchases) offset the credit and labour shock in the return equations. Second, the Bitcoin medians are an artefact of the liquidity coefficient $\beta_L$ applied to multi-trillion programmes, and the 5th-to-95th range for BTC spans two orders of magnitude; the model is telling you that the assumption dominates, not that it has a view.
 
 Full per-asset table for the *Financial crisis* scenario:
 
